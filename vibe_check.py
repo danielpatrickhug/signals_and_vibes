@@ -45,6 +45,7 @@ def st_feature_extraction(data):
 
 # Dimensionality Reduction, Clustering, and Visualization
 
+## Source BERTopic
 def cluster(embeddings):
     #reduce dimensionality
     umap_embeddings = umap.UMAP(n_neighbors=15,
