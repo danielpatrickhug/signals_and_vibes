@@ -28,4 +28,5 @@ def get_free_news_data(topic):
         'x-rapidapi-key': rapidapi_key
         }
     response = requests.request("GET", url, headers=headers, params=querystring)
-    return response
+    return response.json()
+print(get_free_news_data('Elon Musk'))
