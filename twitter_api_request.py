@@ -69,10 +69,3 @@ def get_timeline_by_user_id(user_id, n=1):
     return response.json()['data'][:n]
 
 
-user_id = get_user_id_by_name("Hug11Daniel")
-user_followers = get_users_followers_id(user_id)
-print(user_followers)
-for follower in user_followers:
-    follower_id = follower['id']
-    print(get_timeline_by_user_id(follower_id))
-    print('\n')
