@@ -8,8 +8,8 @@ General API requests and sentence transformer topic modeling
 - RapidAPI Free News
 
 ### Internal Libs
-- [Arxiv API requests, Research paper Segmenter, Tesseract](https://github.com/danielpatrickhug/Research_Paper_Parser)
-- [SEC EDGAR System, 10K, 10Q, Form D api requests](https://github.com/danielpatrickhug/SECDataExtraction)
+- [Arxiv API requests, Research paper Segmententation, Tesseract. (Outdated)](https://github.com/danielpatrickhug/Research_Paper_Parser)
+- [SEC EDGAR System, 10K, 10Q, Form D api requests(Outdated)](https://github.com/danielpatrickhug/SECDataExtraction)
 
 ### TODO
 - NASA Data, JWST hopefully https://api.nasa.gov/
